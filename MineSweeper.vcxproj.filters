@@ -36,6 +36,12 @@
     <ClCompile Include="src\MineSweeper\MineSweeper_GUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\MineSweeper_game\MineSweeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MineSweeper_game\MineSweeper_GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MineSweeper\MineSweeper.h">
@@ -87,6 +93,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MineSweeper\MS_Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MineSweeper_game\MineSweeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MineSweeper_game\MS_Utilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

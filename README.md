@@ -1,9 +1,9 @@
 # Minesweeper-imgui
 
-## What you need
+## What you need to build
 
 1. Visual Studio 2022
-1. Directx 11
+1. DirectX 11
 
 Anything else is included in the project
 

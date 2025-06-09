@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);IDI_ICON1</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>include;include/imgui;include/miniaudio;src;src/imgui_wrapper;src/MineSweeper</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include/imgui;include/miniaudio;src;src/imgui_wrapper;src/MineSweeper_game</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -123,7 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);IDI_ICON1</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>include;include/imgui;include/miniaudio;src;src/imgui_wrapper;src/MineSweeper</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include/imgui;include/miniaudio;src;src/imgui_wrapper;src/MineSweeper_game</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -141,8 +141,8 @@
     <ClCompile Include="src\imgui_wrapper\imgui_stdlib.cpp" />
     <ClCompile Include="src\imgui_wrapper\imgui_styles.cpp" />
     <ClCompile Include="src\imgui_wrapper\imgui_wrapper.cpp" />
-    <ClCompile Include="src\MineSweeper\MineSweeper.cpp" />
-    <ClCompile Include="src\MineSweeper\MineSweeper_GUI.cpp" />
+    <ClCompile Include="src\MineSweeper_game\MineSweeper.cpp" />
+    <ClCompile Include="src\MineSweeper_game\MineSweeper_GUI.cpp" />
     <ClCompile Include="src\open_file_dialog.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,8 +160,8 @@
     <ClInclude Include="src\imgui_wrapper\imgui_styles.h" />
     <ClInclude Include="src\imgui_wrapper\imgui_wrapper.h" />
     <ClInclude Include="src\imgui_wrapper\Spectrum_consts.h" />
-    <ClInclude Include="src\MineSweeper\MineSweeper.h" />
-    <ClInclude Include="src\MineSweeper\MS_Utilities.h" />
+    <ClInclude Include="src\MineSweeper_game\MineSweeper.h" />
+    <ClInclude Include="src\MineSweeper_game\MS_Utilities.h" />
     <ClInclude Include="src\open_file_dialog.h" />
   </ItemGroup>
   <ItemGroup>
